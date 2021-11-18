@@ -1,0 +1,16 @@
+- id: '1637055085249'
+  alias: New Automation
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: calendar.hhrishi_gmail_com
+    id: alarm_control_panel.ha_alarm
+    attribute: message
+  condition: []
+  action:
+  - device_id: c5398dac1cbff57164e5f3863b566a99
+    domain: mobile_app
+    type: notify
+    title: HA Notification
+    message: Hello there !!!
+  mode: single

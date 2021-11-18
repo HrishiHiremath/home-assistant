@@ -1,0 +1,6 @@
+- platform: rest
+  name: Pihole Status
+  resource: http://10.12.2.2/admin/api/php?status
+  headers:
+   auth: !secret pihole_apikey
+  value_template: '{{ value_json.status }}' 

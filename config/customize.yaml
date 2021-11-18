@@ -1,0 +1,5 @@
+# customize entities, this has to be under `homeassistant`
+
+device_tracker.huawei_hg659:
+  friendly_name: Huawei Router
+  entity_picture: /images/huawei-hg659b-modem.png

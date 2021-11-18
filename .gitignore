@@ -1,0 +1,30 @@
+# ignore config-bkp directory
+config-bkp
+
+# ignore home-assistant logs and db files
+home-assistant*
+
+# ignore other directories in config folder
+config/.cloud
+config/.storage
+config/blueprints
+config/custom_components
+config/deps
+config/images
+config/tts
+config/.google.token
+
+# ignore secrets
+config/secrets.yaml
+
+# ignore google calendars file
+config/google_calendars.yaml
+
+# ignore .bkp files
+**/*.bkp
+
+# ignore vs code settings
+.vscode
+
+# ingore HA version
+.HA_VERSION

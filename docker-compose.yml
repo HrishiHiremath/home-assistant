@@ -1,0 +1,32 @@
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/raspberrypi3-homeassistant:stable"
+    volumes:
+      - ${PWD}/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+
+  ########### pihole ###########
+  pihole:
+   container_name: pihole
+   restart: always
+   image: pihole/pihole:latest
+   ports:
+     - "53:53/tcp"
+     - "53:53/udp"
+     - "67:67/udp"
+     - "80:80/tcp"
+     - "443:443/tcp"
+   environment:
+     TZ: "Pacific/Auckland"
+     WEBPASSWORD: "hrishi"
+   volumes:
+     - /home/pi/pihole/pihole:/etc/pihole
+     - /home/pi/pihole/dnsmasq:/etc/dnsmasq
+   dns:
+     - 127.0.0.1
+     - 1.1.1.1

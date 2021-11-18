@@ -1,0 +1,11 @@
+- platform: template
+  switches:
+    pihole_switch:
+      friendly_name: Pihole Switch
+      value_template: "{{ is_state('sensor.pihole_status', 'enable') }}"
+      turn_on:
+       -  service: pihole_enable
+      turn_off:
+       - service: pihole_disable
+         data:
+           duration: "00:30"

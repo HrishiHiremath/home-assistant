@@ -1,0 +1,63 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+homeassistant:
+  customize: !include customize.yaml
+
+  name: Home
+  unit_system: metric
+
+# Setup the platform huawei_hg_659
+huawei_hg659:
+  host: 10.13.2.1 
+  username: admin
+  password: !secret router_password
+
+# Enable and customize the tracker's parameters
+device_tracker:
+- platform: huawei_hg659
+  interval_seconds: 60
+  consider_home: 180
+  new_device_defaults:
+    track_new_devices: true
+
+# Android IP Web Cam
+#android_ip_webcam:
+#  - host: 10.13.2.9
+
+# # pihole
+# pi_hole:
+#   host: 10.13.2.2
+#   name: pihole
+#   api_key: !secret pihole_apikey
+
+logger:
+  default: debug
+  logs:
+    hacs: debug
+    custom_components.hacs: debug
+
+## Family members
+person:
+  - name: Hrishi
+    id: hrishi
+    device_trackers:
+      - device_tracker.sm_a505gn
+
+## google calendar
+google:
+  client_id: !secret google_calendar_client_id
+  client_secret: !secret google_calendar_client_secret
+
+lovelace:
+  mode: yaml

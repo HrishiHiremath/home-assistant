@@ -1,0 +1,168 @@
+
+raspberrypi_wireless:
+  name: raspberrypi_Wireless
+  mac: B8:27:EB:63:70:48
+  icon:
+  picture:
+  track: false
+
+e6_82_4a_46_43_9b_wireless:
+  name: E6:82:4A:46:43:9B_Wireless
+  mac: E6:82:4A:46:43:9B
+  icon:
+  picture:
+  track: false
+
+android_d7ab70fecc2f6f8c_wireless:
+  name: android-d7ab70fecc2f6f8c_Wireless
+  mac: 88:32:9B:90:DE:13
+  icon:
+  picture:
+  track: false
+
+iphone_wireless:
+  name: iPhone_Wireless
+  mac: 34:12:98:CA:D5:59
+  icon:
+  picture:
+  track: false
+
+48_5f_99_cc_98_d5_wireless:
+  name: 48:5F:99:CC:98:D5_Wireless
+  mac: 48:5F:99:CC:98:D5
+  icon:
+  picture:
+  track: false
+
+hrishi_s_phone_wireless:
+  name: Hrishi-s-Phone_Wireless
+  mac: B0:6F:E0:40:10:48
+  icon:
+  picture:
+  track: true
+
+static_00_22_6d_11_a2_bf_ethernet:
+  name: Static-00-22-6D-11-A2-BF_Ethernet
+  mac: 00:22:6D:11:A2:BF
+  icon:
+  picture:
+  track: false
+
+android_728f7c1138d8fde_wireless:
+  name: android-728f7c1138d8fde_Wireless
+  mac: 38:1D:D9:5B:F1:7C
+  icon:
+  picture:
+  track: false
+
+ee_db_b2_79_89_9d_wireless:
+  name: EE:DB:B2:79:89:9D_Wireless
+  mac: EE:DB:B2:79:89:9D
+  icon:
+  picture:
+  track: false
+
+priyas_mbp_wireless:
+  name: Priyas-MBP_Wireless
+  mac: 8C:85:90:72:8E:A6
+  icon:
+  picture:
+  track: false
+
+chromecast_ultra_wireless:
+  name: Chromecast-Ultra_Wireless
+  mac: 38:8B:59:14:0B:D4
+  icon:
+  picture:
+  track: false
+
+b0_4a_39_07_a5_9e_wireless:
+  name: B0:4A:39:07:A5:9E_Wireless
+  mac: B0:4A:39:07:A5:9E
+  icon:
+  picture:
+  track: false
+
+priyahrshisipad_wireless:
+  name: PriyaHrshisiPad_Wireless
+  mac: A4:D1:D2:95:3F:4E
+  icon:
+  picture:
+  track: false
+
+hrishis_mbp_wireless:
+  name: Hrishis-MBP_Wireless
+  mac: 28:CF:DA:EF:D3:D2
+  icon:
+  picture:
+  track: false
+
+ellies_iphone_wireless:
+  name: Ellies-iPhone_Wireless
+  mac: C6:CA:53:9D:7D:11
+  icon:
+  picture:
+  track: false
+
+elliesaplewatch_wireless:
+  name: ElliesApleWatch_Wireless
+  mac: 42:80:07:A7:4B:07
+  icon:
+  picture:
+  track: false
+
+cx5cg83306sj_wireless:
+  name: CX5CG83306SJ_Wireless
+  mac: C0:B6:F9:D0:3C:34
+  icon:
+  picture:
+  track: false
+
+la_c02yvgd7lvcg_wireless:
+  name: LA-C02YVGD7LVCG_Wireless
+  mac: A4:83:E7:11:7E:B4
+  icon:
+  picture:
+  track: false
+
+hrishis_s7_wireless:
+  name: Hrishis-S7_Wireless
+  mac: 04:D6:AA:60:3E:8B
+  icon:
+  picture:
+  track: false
+
+esp_0f41a0_wireless:
+  name: ESP_0F41A0_Wireless
+  mac: 4C:11:AE:0F:41:A0
+  icon:
+  picture:
+  track: false
+
+esp_72bfca_wireless:
+  name: ESP_72BFCA_Wireless
+  mac: CC:50:E3:72:BF:CA
+  icon:
+  picture:
+  track: false
+
+riyas_mbp_wireless:
+  name: Riyas-MBP_Wireless
+  mac: C4:B3:01:BD:5A:1B
+  icon:
+  picture:
+  track: true
+
+4e_38_b7_35_c8_ca_wireless:
+  name: 4E:38:B7:35:C8:CA_Wireless
+  mac: 4E:38:B7:35:C8:CA
+  icon:
+  picture:
+  track: true
+
+9e_61_9a_99_54_5e_wireless:
+  name: 9E:61:9A:99:54:5E_Wireless
+  mac: 9E:61:9A:99:54:5E
+  icon:
+  picture:
+  track: true
